@@ -152,6 +152,8 @@ html, body, .section1, .swiper-container, .swiper-slide {
     border-radius: 3px;
     background-color: rgba(249, 249, 249, 0.129412);
     margin-bottom: .4rem;
+    
+    display:block;
 }
 
 /*------*page2动画--------*/
@@ -291,9 +293,9 @@ html, body, .section1, .swiper-container, .swiper-slide {
     z-index: 0;
     background: -webkit-linear-gradient(top left, sandybrown, cadetblue, green);
 
-    /* -webkit-animation: zoomIn 1s 1.8s both;
+     -webkit-animation: zoomIn 1s 1.8s both;
     animation: zoomIn 1s 1.8s both;
- */
+ 
 }
 
 #page3 div span:nth-child(1) {
@@ -301,9 +303,6 @@ html, body, .section1, .swiper-container, .swiper-slide {
     top: 3.7rem;
     transform: rotate(-63deg);
     transform-origin: top;
-
-    -webkit-animation: zoomIn 1s 1.8s both;
-    animation: zoomIn 1s 1.8s both;
 
 }
 
